@@ -5,8 +5,9 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "baseUrl": "./",  // 解析相对模块的基地址，默认是当前路径
-    "paths": {  // 路径映射，相对于baseUrl
+    "baseUrl": "./", // 解析相对模块的基地址，默认是当前路径
+    "paths": {
+      // 路径映射，相对于baseUrl
       "@/*": ["src/*"]
     },
 
