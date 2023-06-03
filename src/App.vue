@@ -1,11 +1,15 @@
 <template>
-  <div>新增一个标题 ${str}</div>
+  <div>
+    <h1>SVG测试</h1>
+  </div>
 </template>
 
 <script setup lang="ts">
-const str = '去你妈的共匪'
-console.log(str);
 
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+div {
+  color: $color;
+}
+</style>
